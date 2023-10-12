@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #007bff;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: rgb(205, 199, 199);
+}
+
+label {
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    height: 1rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: -1rem;
+}
+
+.radio-group label{
+    cursor: pointer ;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin: 2rem 2rem 0rem 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
